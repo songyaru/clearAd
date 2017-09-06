@@ -24,7 +24,7 @@ var adData = {
 		"next": [".footer"]
 	},
 	"csdn.net": {
-		"hide": ["#layerd_google", ".J_adv", "ins", ".csdn-tracking-statistics", ".J_close", ".tracking-ad"]
+		"hide": ["#layerd_google", ".J_adv", "ins", ".csdn-tracking-statistics", ".J_close", ".tracking-ad[data-con*='ad']"]
 	},
 	"weather.com.cn": {
 		"hide": [".ad1", ".ad2", ".ad3", ".ad4"]
