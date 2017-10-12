@@ -10,7 +10,8 @@ var adData = {
 	},
 	"dygod.net": {
 		"hide": [".bd4l"],
-		"prev": ["#header"]
+		"prev": ["#header"],
+		"next": ["#header"]
 	},
 	"qq.com": {
 		"hide": [".ad1", ".kjad2", ".article_ad"]
@@ -24,7 +25,7 @@ var adData = {
 		"next": [".footer"]
 	},
 	"csdn.net": {
-		"hide": ["#layerd_google", ".J_adv", "ins", ".csdn-tracking-statistics", ".J_close", ".tracking-ad[data-con*='ad']"]
+		"hide": ["#layerd_google", ".J_adv", "ins", ".extension_other.csdn-tracking-statistics", ".J_close", ".tracking-ad[data-con*='ad']"]
 	},
 	"weather.com.cn": {
 		"hide": [".ad1", ".ad2", ".ad3", ".ad4"]
@@ -34,5 +35,8 @@ var adData = {
 	}
 };
 var exclude = {
-	"aliyun.com": {}
+	"aliyun.com": {},
+	"localhost": {},
+	"127.0.0.1": {},
+	"52che.com": {}
 };
